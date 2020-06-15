@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1+1
+
+- https://github.com/stablekernel/open-api-dart/pull/6
+
 ## 2.0.1
 
 - Fix bug when merging APIResponse bodies
