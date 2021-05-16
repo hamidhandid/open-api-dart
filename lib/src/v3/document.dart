@@ -56,7 +56,7 @@ class APIDocument extends APIObject {
     super.decode(object);
 
     version = object.decode("openapi");
-    info = object.decodeObject("info", () => APIInfo.empty())!;
+    info = object.decodeObject("info", () => APIInfo.empty());
     servers =
         object.decodeObjects("servers", () => APIServerDescription.empty());
     paths = object.decodeObjectMap("paths", () => APIPath());
