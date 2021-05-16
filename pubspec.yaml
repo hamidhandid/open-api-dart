@@ -11,7 +11,7 @@ environment:
 dependencies:
   codable_forked:
     git:
-        url: https://github.com/hamidhandid/dart-codable
+      url: https://github.com/hamidhandid/dart-codable
   meta: ^1.3.0
 
 dev_dependencies:
